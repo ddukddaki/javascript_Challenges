@@ -1,0 +1,63 @@
+
+<!-- 믿으시겠지만 HTMl 공간 구획과 CSS 학습 부재로 이러합니다.. -->
+<!-- worst 과제상은 없나요? -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Momentum App</title>
+  </head>
+  <body>
+    <h1> 내년도 행복했으면 좋겠읍니다. </h1>
+    <button> 감성을 더해Boa요. </button>
+
+    <br><br>
+
+    <div class="oneLine">
+    <h2 id="clock">00:00:00</h2>
+  </div>
+
+  <br>
+
+    <form class="login_go" id="login-form">
+      <input
+        required
+        maxlength="15"
+        type="text"
+        placeholder="존함이 어찌되는지?"
+      />
+      <input type="submit" value="Log In" class="submit_go" />
+    </form>
+
+  <br>
+
+    
+    <form class="todo_go" id="todo-form">
+      <h1 id="greeting"></h1>
+      <input type="text" placeholder="할일을 기록해Boa요." required />
+    </form>
+    <ul id="todo-list"></ul>
+    <br><br>
+    ★☆오늘의 한말씀☆★
+    <div id="quote">
+      <span></span>
+      <span></span>
+    </div>
+  <br>
+    ★☆오늘의 나을씨☆★
+    <div id="weather">
+      <span></span>
+      <span></span>
+    </div>
+  <br>
+    <script src="js/greetings.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>
